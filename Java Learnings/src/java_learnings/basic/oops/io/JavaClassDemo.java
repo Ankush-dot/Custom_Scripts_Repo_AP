@@ -27,6 +27,7 @@ public class JavaClassDemo {
 		System.out.println("Area is : " + ci.area());
 		System.out.println("Perimeter is : " + ci.perimeter());
 		System.out.println("circuference is : " + ci.circumference());
+		System.out.println("Git Demo purpose");
 	}
 	
 	

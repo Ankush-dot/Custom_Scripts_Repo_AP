@@ -36,7 +36,7 @@ public class QuestionController {
     }
 
     @GetMapping("getAll")
-    public String getAll(){System.out.println("Hey ALL"); return "Hello";}
+    public String getAll(){System.out.println("Hey ALL"); return "Hello1";}
 
 }
 

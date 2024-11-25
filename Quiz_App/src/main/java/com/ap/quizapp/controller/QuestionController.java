@@ -34,4 +34,9 @@ public class QuestionController {
     public ResponseEntity<String> addQuestion(@RequestBody Questions questions){
         return questionService.addQuestion(questions);
     }
+
+    @GetMapping("getAll")
+    public String getAll(){System.out.println("Hey ALL"); return "Hello1";}
+
 }
+

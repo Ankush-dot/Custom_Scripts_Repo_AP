@@ -23,7 +23,8 @@ public class JavaJDBCDemo{
 
 			//Connecting JDBC Driver
 			Class.forName("com.mysql.cj.jdbc.Driver");  
-			Connection con=DriverManager.getConnection(url,userName,Password);  
+			Connection con=DriverManager.getConnection(url,userName,Password); 
+			
 
 			//Writing query using Stem
 			Statement stmt=con.createStatement();  

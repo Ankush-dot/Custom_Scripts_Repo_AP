@@ -33,7 +33,7 @@ public class JavaJDBCDemo{
 			while(rs.next())  {
 				System.out.println(rs.getInt("deptno")+"  "+rs.getString("dname"));  
 			}
-			con.close();
+			con.close(); 
 
 		}catch (IOException | ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block
